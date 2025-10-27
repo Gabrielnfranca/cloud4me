@@ -7,9 +7,11 @@ require 'PHPMailerAutoload.php';
 
 // Configurações do destinatário
 
-// Recomendo: coloque a senha em variável de ambiente ou arquivo seguro
-$mailUser = 'contato@cloud4me.com.br';
-$mailPass = 'Gnoberto01@@';
+// Carrega as configurações do arquivo config.ini
+$config = parse_ini_file('config.ini');
+
+$mailUser = $config['MAIL_USER'];
+$mailPass = $config['MAIL_PASS'];
 
 $mail = new PHPMailer(true);
 $mail->CharSet = 'UTF-8';

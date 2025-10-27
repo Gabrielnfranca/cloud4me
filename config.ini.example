@@ -1,0 +1,5 @@
+; Arquivo de configuração de exemplo
+; Copie este arquivo para config.ini e preencha com suas credenciais
+
+MAIL_USER = "seu_email_aqui@exemplo.com"
+MAIL_PASS = "sua_senha_aqui"
