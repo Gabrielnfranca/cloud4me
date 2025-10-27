@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /login/
+Disallow: /tmp/
+Allow: /
+
+Sitemap: https://cloud4me.com.br/sitemap.xml

@@ -1,0 +1,1036 @@
+<!doctype html>
+<html class="no-js" lang="pt-br">
+
+<head>
+        <style>
+            /* Efeito apenas para o botão do menu */
+            .menu-whatsapp-btn {
+                animation: pulse 1.2s infinite;
+                box-shadow: 0 0 0 0 #25d366, 0 0 12px 4px #25d36680;
+                transition: box-shadow 0.3s;
+            }
+
+            @keyframes pulse {
+                0% {
+                    transform: scale(1);
+                    box-shadow: 0 0 0 0 #25d366, 0 0 12px 4px #25d36680;
+                }
+                50% {
+                    transform: scale(1.12);
+                    box-shadow: 0 0 0 8px #25d36640, 0 0 24px 8px #25d36680;
+                }
+                100% {
+                    transform: scale(1);
+                    box-shadow: 0 0 0 0 #25d366, 0 0 12px 4px #25d36680;
+                }
+            }
+
+            .menu-whatsapp-btn:hover {
+                animation: shake 0.5s;
+                box-shadow: 0 0 0 12px #25d36640, 0 0 32px 12px #25d366cc;
+            }
+
+            @keyframes shake {
+                0% { transform: translate(0, 0); }
+                20% { transform: translate(-2px, 2px); }
+                40% { transform: translate(2px, -2px); }
+                60% { transform: translate(-2px, 2px); }
+                80% { transform: translate(2px, -2px); }
+                100% { transform: translate(0, 0); }
+            }
+        </style>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Empresa de TI - Soluções e Serviços Profissionais</title>
+    <meta name="author" content="vecuro">
+    <meta name="description" content="Empresa de TI especializada em soluções e serviços profissionais para negócios. Descubra como podemos ajudar sua empresa a crescer com tecnologia de ponta.">
+    <meta name="keywords" content="Empresa de TI, Soluções de TI, Serviços de TI, Consultoria de TI, Tecnologia para negócios" />
+    <meta name="robots" content="INDEX,FOLLOW">
+    <link rel="canonical" href="https://cloud4me.com.br/">
+    <!-- ...código existente... -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Cloud4me",
+  "url": "https://cloud4me.com.br/",
+  "logo": "https://cloud4me.com.br/assets/img/favicons/favicon.png",
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+55-11-98143-3062",
+    "contactType": "customer service",
+    "areaServed": "BR",
+    "availableLanguage": ["Portuguese", "English"]
+  },
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Rua Tijuco Preto, 1509",
+    "addressLocality": "Tatuapé",
+    "addressRegion": "SP",
+    "postalCode": "03316-000",
+    "addressCountry": "BR"
+  },
+  "sameAs": [
+    "https://www.facebook.com/cloud4me",
+    "https://www.instagram.com/cloud4me",
+    "https://www.linkedin.com/company/cloud4me"
+  ]
+}
+        </script>
+        <style>
+            .mega-menu-expand-parent {
+                position: static;
+            }
+.mega-menu-expand {
+    display: none;
+    position: absolute;
+    left: 50%;
+    top: 100%;
+    width: 100vw;
+    max-width: 100vw;
+    transform: translateX(-50%);
+    margin: 0;
+    padding: 32px 32px 28px 32px;
+    z-index: 9999;
+    /* Centralizado e mais largo */
+    background: #fff;
+    min-width: 220px;
+    box-shadow: 0 12px 32px 0 rgba(60,0,140,0.10);
+    z-index: 9999;
+    border-radius: 16px;
+    border: 1px solid #ececec;
+    padding: 24px 16px 20px 16px;
+    transition: box-shadow 0.3s;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 32px;
+    flex-wrap: wrap;
+    overflow-x: visible;
+}
+.mega-menu-expand-parent:hover .mega-menu-expand {
+    display: flex;
+}
+.mega-menu-expand .mega-menu-col {
+    max-width: 260px;
+    min-width: 200px;
+    text-align: left;
+    margin-right: 56px;
+    padding-right: 56px;
+    border-right: 1px solid #f3f0ff;
+    background: transparent;
+    height: 100%;
+    /* Garante que a primeira coluna não fique fora do fundo */
+    margin-left: 0 !important;
+    padding-left: 0 !important;
+}
+}
+.mega-menu-expand .mega-menu-col:last-child {
+    margin-right: 0;
+    padding-right: 0;
+    border-right: none;
+}
+.mega-menu-expand .mega-menu-title {
+    font-size: 1.15rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #3c008c;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border-bottom: 2px solid #f3f0ff;
+    padding-bottom: 6px;
+    min-height: 32px;
+}
+.mega-menu-expand ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.mega-menu-expand ul li {
+    margin-bottom: 10px;
+}
+.mega-menu-expand ul li a {
+    transition: background 0.2s, color 0.2s;
+        padding: 48px 120px 40px 120px;
+        box-sizing: border-box;
+        gap: 72px;
+    padding: 2px 8px;
+    color: #7c3aed;
+    font-weight: 500;
+    text-decoration: none;
+    display: block;
+    background: transparent;
+}
+.mega-menu-expand ul li a:hover {
+    background: #f3f0ff;
+    color: #3c008c;
+    box-shadow: 0 2px 8px 0 rgba(60,0,140,0.08);
+    text-decoration: underline;
+}
+.mega-menu-expand ul li span {
+    font-size: 0.93rem;
+    color: #888;
+    margin-left: 2px;
+    display: block;
+    margin-top: 2px;
+}
+@media (max-width: 991px) {
+    .mega-menu-expand {
+        position: static;
+        width: 100%;
+        padding: 16px 12px;
+        border-radius: 0;
+        gap: 0;
+        overflow: visible;
+    }
+    .mega-menu-expand .mega-menu-col {
+        margin-right: 0;
+        padding-right: 0;
+        border-right: none;
+    }
+}
+        </style>
+    <!-- <link rel="stylesheet" href="assets/css/app.min.css"> -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- Fontawesome Icon -->
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+    <!-- Layerslider -->
+    <link rel="stylesheet" href="assets/css/layerslider.min.css">
+    <!-- Magnific Popup -->
+    <link rel="stylesheet" href="assets/css/magnific-popup.min.css">
+    <!-- Slick Slider -->
+    <link rel="stylesheet" href="assets/css/slick.min.css">
+    <!-- Theme Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    
+</head>
+
+<body>
+
+
+    <!--[if lte IE 9]>
+    	<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+  <![endif]-->
+
+
+
+    <!--********************************
+   		Code Start From Here 
+	******************************** -->
+
+
+   
+    <!--==============================
+    Mobile Menu
+  ============================== -->
+    <div class="vs-menu-wrapper">
+    <div class="vs-menu-area text-center">
+        <button class="vs-menu-toggle"><i class="fal fa-times"></i></button>
+        <div class="mobile-logo">
+            <a href="index.html"><img src="assets/img/logo.png" alt="Empresa de TI" class="logo"></a>
+        </div>
+        <div class="vs-mobile-menu">
+            <ul>
+                <li><a href="https://cloud4me.com.br/">Início</a></li>
+                <li><a href="https://cloud4me.com.br/sobre-nos.html">Sobre Nós</a></li>
+                <li class="menu-item-has-children">
+                    <a href="https://cloud4me.com.br/servicos.html">Serviços</a>
+                    <ul class="sub-menu">
+                      <li><a href="https://cloud4me.com.br/servicos/cabeamento-de-rede.html">Cabeamento de Rede</a></li>
+                <li><a href="https://cloud4me.com.br/servicos/microsoft-azure-cloud.html">Microsoft Azure Cloud</a></li>
+                <li><a href="https://cloud4me.com.br/servicos/outsourcing-de-ti.html">Outsourcing de TI</a></li>
+                <li><a href="https://cloud4me.com.br/servicos/big-data-analise-de-dados.html">Big Data e Análise de Dados</a></li>
+                <li><a href="/servicos/consultoria-em-ti.html">Consultoria em TI</a></li>
+             </ul>
+                </li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="https://cloud4me.com.br/contato.html">Contato</a></li>
+                
+        </div>
+    </div>
+</div>
+    <!--==============================
+        Header Area
+    ==============================-->
+    <header class="vs-header header-layout1">
+    <!-- Header Top -->
+    <div class="header-top">
+    <div class="container">
+        <div class="row align-items-center justify-content-between gy-1 text-center text-lg-start">
+            <div class="col-lg-auto d-none d-lg-block">
+                <p class="header-text"><i class="fal fa-clock"></i> <span class="fw-medium">Horários de Atendimento:</span> Seg-Sex: 8h - 18h | Sáb: 8h - 12h</p>
+            </div>
+            <div class="col-lg-auto">
+                <div class="header-social style-white">
+                    <span class="social-title">Siga-nos: </span>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    <div class="container">
+        <div class="menu-top">
+            <div class="row justify-content-between align-items-center gx-sm-0">
+                <div class="col">
+                    <div class="header-logo">
+                        <a href="index.html"><img src="assets/img/logo.png" alt="Empresa de TI" class="logo"></a>
+                    </div>
+                </div>
+                <div class="col-auto header-info">
+                    <div class="header-info_icon"><i class="fas fa-phone-alt"></i></div>
+                    <div class="media-body">
+                        <span class="header-info_label">Atendimento em horário comercial</span>
+                        <div class="header-info_link"><a href="tel:+26921562148">(11) 98860-5459</a></div>
+                    </div>
+                </div>
+                <div class="col-auto header-info d-none d-lg-flex">
+                    <div class="header-info_icon"><i class="fas fa-envelope"></i></div>
+                    <div class="media-body">
+                        <span class="header-info_label">Envie-nos um e-mail</span>
+                        <div class="header-info_link"><a href="mailto:info@cloud4me.com">contato@cloud4me.com.br</a></div>
+                    </div>
+                </div>
+                <div class="col-auto header-info d-none d-xl-flex">
+                    <div class="header-info_icon"><i class="fas fa-map-marker-alt"></i></div>
+                    <div class="media-body">
+                        <span class="header-info_label">Endereço do Escritório</span>
+                        <div class="header-info_link">Rua: Tijuco Preto, 1509 - Tatuapé</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Main Menu Area -->
+    <div class="sticky-wrapper">
+        <div class="sticky-active">
+            <div class="container">
+                <div class="row align-items-center justify-content-between">
+                    <div class="col-auto">
+                        <nav class="main-menu menu-style1 d-none d-lg-block">
+    <ul>
+        <li><a href="https://cloud4me.com.br/">Início</a></li>
+        <li><a href="https://cloud4me.com.br/sobre-nos.html">Sobre Nós</a></li>
+        <li class="menu-item-has-children mega-menu-expand-parent">
+            <a href="https://cloud4me.com.br/servicos.html">Serviços</a>
+            <div class="mega-menu-expand" style="gap:0;">
+      <div class="mega-menu-col">
+        <div class="mega-menu-title"><i class="fas fa-network-wired"></i> Serviços de TI</div>
+        <ul>
+          <li><a href="/servicos/consultoria-em-ti.html">Terceirização de TI</a><span>Soluções especializadas em infraestrutura tecnológica.</span></li>
+          <li><a href="/servicos/cabeamento-de-rede.html">Gestão de TI</a><span>Soluções inteligentes para recursos tecnológicos.</span></li>
+          <li><a href="/servicos/microsoft-azure-cloud.html">Suporte de TI</a><span>Assistência técnica ágil e especializada.</span></li>
+          <li><a href="/servicos/outsourcing-de-ti.html">Consultoria de TI</a><span>Impulsionando crescimento e eficiência no seu negócio.</span></li>
+          <li><a href="/servicos/big-data-analise-de-dados.html">Projetos de Infraestrutura de TI</a><span>Construção e otimização de base tecnológica sólida.</span></li>
+        </ul>
+      </div>
+      <div class="mega-menu-col" style="margin-left:24px;">
+        <div class="mega-menu-title"><i class="fas fa-cloud"></i> Soluções em Nuvem</div>
+        <ul>
+          <li><a href="#">Cloud Corporativo</a><span>Plataforma segura e flexível para dados empresariais.</span></li>
+          <li><a href="#">Data Center</a><span>Centro de processamento de dados altamente eficiente.</span></li>
+        </ul>
+      </div>
+      <div class="mega-menu-col">
+        <div class="mega-menu-title"><i class="fas fa-shield-alt"></i> Segurança Digital</div>
+        <ul>
+          <li><a href="#">NOC – Monitoramento de Redes</a><span>Garantindo sua estabilidade e segurança em tempo real.</span></li>
+          <li><a href="#">SOC</a><span>Garantindo a proteção contínua dos seus ativos digitais.</span></li>
+          <li><a href="#">Pentest</a><span>Detectando falhas e assegurando proteção de dados.</span></li>
+          <li><a href="#">Cibersegurança</a><span>Proteção de dados e sistemas contra ataques.</span></li>
+          <li><a href="#">Firewall para Empresas</a><span>Mantendo sua rede segura e livre de ameaças digitais.</span></li>
+          <li><a href="#">Análise de Redes</a><span>Proporcionando insights para melhorias e otimizações.</span></li>
+          <li><a href="#">Ransomware Protection</a><span>Proteção Avançada contra Ransomware.</span></li>
+        </ul>
+      </div>
+      <div class="mega-menu-col">
+        <div class="mega-menu-title"><i class="fas fa-database"></i> Proteção de Dados</div>
+        <ul>
+          <li><a href="#">Veeam Backup</a><span>Backups confiáveis e recuperação rápida de dados.</span></li>
+          <li><a href="#">Backup em Nuvem</a><span>Cópias automáticas e criptografadas.</span></li>
+          <li><a href="#">Consultoria LGPD</a><span>Conformidade e segurança na gestão de informações.</span></li>
+        </ul>
+      </div>
+      <div class="mega-menu-col">
+        <div class="mega-menu-title"><i class="fab fa-microsoft"></i> Microsoft</div>
+        <ul>
+          <li><a href="#">Microsoft 365</a></li>
+        </ul>
+      </div>
+    </div>
+        </li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="https://cloud4me.com.br/contato.html">Contato</a></li>
+        </ul>
+        </nav>
+                        <button class="vs-menu-toggle d-inline-block d-lg-none"><i class="fal fa-bars"></i></button>
+                    </div>
+                    <div class="col-auto">
+                        <a href="https://wa.me/5511988605459?text=Olá!%20Gostaria%20de%20uma%20consultoria%20online%20em%20TI." target="_blank" class="vs-btn" style="background:#25d366; color:#fff; font-weight:600; font-size:1.1rem; padding: 10px 24px; border-radius: 8px; box-shadow: 0 2px 8px 0 rgba(0,0,0,0.10); display:inline-block;">
+        <i class="fab fa-whatsapp me-2"></i> Consultoria Online
+    </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+    <!--==============================
+    Hero Area
+    ==============================-->
+    <section class="  ">
+    <div class="vs-carousel hero-layout1" data-slide-show="1" data-fade="true" data-arrows="true">
+        <div>
+            <div class="hero-inner">
+                <div class="hero-shape1"></div>
+                <div class="hero-shape2"></div>
+                <div class="hero-bg" data-bg-src="assets/img/hero/hero-1-1.jpg"></div>
+                <div class="container">
+                    <div class="hero-content">
+                        <h1 class="hero-title">Empresa de TI <span class="hero-innertext">Soluções e Serviços Profissionais</span>
+                            <br> Tecnologia para o Crescimento do Seu Negócio
+                        </h1>
+                        <p class="hero-text">Consultoria Microsoft, Outsourcing e Segurança em TI para empresas que buscam eficiência e proteção. Reduza custos, aumente a produtividade e mantenha sua empresa segura com soluções sob medida em tecnologia.</p>
+                        <div class="hero-btns">
+                            <a href="https://cloud4me.com.br/sobre-nos.html" class="vs-btn">SOBRE NÓS<i class="far fa-arrow-right"></i></a>
+                            <a href="\contato.html" class="vs-btn style2">Fale com nossa equipe<i class="far fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    <div data-bg-src="assets/img/bg/ab-bg-1-1.jpg">
+    <!--==============================
+    Features Area
+==============================-->
+<section class="feature-wrap1 space-top space-extra-bottom">
+    <div class="container wow fadeInUp" data-wow-delay="0.2s">
+        <div class="row vs-carousel" data-slide-show="3" data-lg-slide-show="2" data-md-slide-show="2">
+            <div class="col-xl-4">
+                <div class="feature-style1">
+                    <div class="feature-icon">
+                      <i class="fas fa-network-wired" style="font-size:48px;color:#0d6efd;"></i>
+                    </div>
+                    <h3 class="feature-title h5"><a class="text-inherit" href="https://cloud4me.com.br/servicos/cabeamento-de-rede.html">Cabeamento de Rede</a></h3>
+                    <p class="feature-text">Oferecemos soluções completas de cabeamento estruturado para garantir conectividade e desempenho na infraestrutura de TI da sua empresa.</p>
+                    <a href="https://cloud4me.com.br/servicos/cabeamento-de-rede.html" class="vs-btn style3">Saiba Mais<i class="far fa-long-arrow-right"></i></a>
+                </div>
+            </div>
+            <div class="col-xl-4">
+                <div class="feature-style1">
+                    <div class="feature-icon"><i class="fas fa-cloud" style="font-size:48px;color:#0d6efd;"></i>
+                    </div>
+                    <h3 class="feature-title h5"><a class="text-inherit" href="https://cloud4me.com.br/servicos/microsoft-azure-cloud.html">Microsoft Azure Cloud</a></h3>
+                    <p class="feature-text">Transforme sua empresa de TI com infraestrutura moderna e soluções em nuvem que impulsionam a eficiência e segurança.</p>
+                    <a href="https://cloud4me.com.br/servicos/microsoft-azure-cloud.html" class="vs-btn style3">Saiba Mais<i class="far fa-long-arrow-right"></i></a>
+                </div>
+            </div>
+            <div class="col-xl-4">
+                <div class="feature-style1">
+                    <div class="feature-icon">
+                      <i class="fas fa-user-cog" style="font-size:48px;color:#0d6efd;"></i>
+                    </div>
+                    <h3 class="feature-title h5"><a class="text-inherit" href="https://cloud4me.com.br/servicos/outsourcing-de-ti.html">Outsourcing de TI</a></h3>
+                    <p class="feature-text">Terceirização completa de TI com suporte especializado, monitoramento 24/7 e equipe dedicada para que sua empresa foque no que realmente importa: crescer.</p>
+                    <a href="https://cloud4me.com.br/servicos/outsourcing-de-ti.html" class="vs-btn style3">Saiba Mais<i class="far fa-long-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+        <!--==============================
+    About Us
+    ==============================-->
+        <section class="position-relative space-bottom">
+    <span class="about-shape1 d-none d-xl-block">Empresa de TI</span>
+    <div class="container z-index-common">
+        <div class="row gx-60">
+            <div class="col-lg-6 col-xl-5 mb-50 mb-lg-0 wow fadeInUp" data-wow-delay="0.2s">
+                <div class="img-box1">
+                    <div class="img-1">
+                        <img src="assets/img/about/about-empresa-de-ti.png" alt="Sobre a Empresa de TI">
+                    </div>
+                    <div class="img-2">
+                        <img src="assets/img/about/about-empresa-de-ti-video.png" alt="Sobre a Empresa de TI">
+                        <a class="play-btn style2 position-center popup-video"
+                            href=""><i class=""><i
+                                    class="fas fa-play"></i></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-xl-7 align-self-center wow fadeInUp" data-wow-delay="0.3s">
+                <span class="sec-subtitle"><i class="fas fa-bring-forward"></i>Conheça nossa Empresa de TI</span>
+                <h2 class="sec-title h1">Soluções de TI para o Crescimento do Seu Negócio</h2>
+                <p class="mb-4 mt-1 pb-3">Nossa empresa de TI oferece soluções inovadoras e serviços especializados para ajudar sua organização a alcançar novos patamares. Com tecnologia de ponta e uma equipe dedicada, estamos prontos para transformar seus desafios em oportunidades.</p>
+                <div class="call-media">
+                    <div class="call-media__icon"><img src="assets/img/icon/tel-1-1.png" alt="Contato"></div>
+                    <div class="media-body">
+                        <span class="call-media__label">Atendimento 24 horas</span>
+                        <p class="call-media__info">Ligue para nós: <a href="tel:+6668880000">(11) 9 8860-5459</a></p>
+                    </div>
+                </div>
+                <a href="https://cloud4me.com.br/sobre-nos.html" class="vs-btn">Saiba Mais Sobre Nós<i class="far fa-long-arrow-right"></i></a>
+            </div>
+        </div>
+    </div>
+</section>
+    </div>
+    <!--==============================
+    Service Area
+    ==============================-->
+    <section class="space-top space-extra-bottom" data-bg-src="assets/img/bg/sr-bg-1-1.png">
+    <div class="container">
+        <div class="row justify-content-center text-center">
+            <div class="col-lg-8 col-xl-6 wow fadeInUp" data-wow-delay="0.2s">
+                <div class="title-area">
+                    <span class="sec-subtitle">Serviços da Empresa de TI</span>
+                    <h2 class="sec-title h1">O que oferecemos para o crescimento do seu negócio</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row wow fadeInUp" data-wow-delay="0.2s">
+            <div class="col-md-6 col-lg-4">
+                <div class="service-style1">
+                    <div class="service-bg" data-bg-src="assets/img/bg/sr-box-bg-1.jpg"></div>
+                    <div class="service-icon"><img src="assets/img/icon/sr-icon-1-1.png" alt="Desenvolvimento"></div>
+                    <h3 class="service-title h5"><a href="service-development.html">Cibersegurança</a></h3>
+                    <p class="service-text">Proteção avançada contra ataques virtuais, com monitoramento constante, backup seguro e conformidade com a LGPD.</p>
+                    <a href="service-development.html" class="vs-btn style3">Saiba Mais<i class="far fa-long-arrow-right"></i></a>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="service-style1">
+                    <div class="service-bg" data-bg-src="assets/img/bg/sr-box-bg-1.jpg"></div>
+                    <div class="service-icon"><img src="assets/img/icon/sr-icon-1-2.png" alt="Infraestrutura"></div>
+                    <h3 class="service-title h5"><a href="service-infrastructure.html">Suporte Técnico 24/7</a></h3>
+                    <p class="service-text">Atendimento rápido e especializado para manter sua operação funcionando sem interrupções, sempre que precisar.</p>
+                    <a href="service-infrastructure.html" class="vs-btn style3">Saiba Mais<i class="far fa-long-arrow-right"></i></a>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="service-style1">
+                    <div class="service-bg" data-bg-src="assets/img/bg/sr-box-bg-1.jpg"></div>
+                    <div class="service-icon"><img src="assets/img/icon/sr-icon-1-3.png" alt="Big Data"></div>
+                    <h3 class="service-title h5"><a href="service-bigdata.html">Consultoria em Transformação Digital</a></h3>
+                    <p class="service-text">Soluções estratégicas para modernizar processos, reduzir custos e aumentar a eficiência da sua empresa.</p>
+                    <a href="service-bigdata.html" class="vs-btn style3">Saiba Mais<i class="far fa-long-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    <!--==============================
+   
+    FAQ Area
+    ==============================-->
+    <section class="faq-wrap1">
+    <div class="faq-shape1" data-bg-src="assets/img/bg/faq-bg-1-1.jpg"></div>
+    <div class="faq-shape2" data-bg-src="assets/img/bg/faq-bg-1-2.jpg"></div>
+    <div class="container">
+        <div class="row gx-60">
+            <div class="col-lg-6 pb-20 pb-lg-0 wow fadeInUp" data-wow-delay="0.2s">
+                <div class="img-box2">
+                    <div class="img-1"><img src="assets/img/faq/faq-empresa-de-ti.png" alt="Imagem FAQ"></div>
+                    <div class="img-2"><img src="assets/img/faq/faq-empresa-de-ti-video.png" alt="Imagem FAQ">
+                        <a class="play-btn style3 position-center popup-video"
+                            href=""><i class="fas fa-play"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 align-self-center">
+                <span class="sec-subtitle text-white"><i class="fas fa-bring-forward"></i>Fale Sobre Nossa Empresa de TI</span>
+                <h2 class="sec-title text-white mb-4 pb-2 h1">Como podemos ajudar sua empresa?</h2>
+                <div class="accordion accordion-style1" id="faqVersion1">
+                    <div class="accordion-item">
+                        <div class="accordion-header" id="headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Quais serviços de TI oferecemos?
+                            </button>
+                        </div>
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                            data-bs-parent="#faqVersion1">
+                            <div class="accordion-body">
+                                <p>Oferecemos soluções completas em desenvolvimento de sistemas, infraestrutura em nuvem, análise de dados e consultoria em TI para ajudar sua empresa a crescer com tecnologia de ponta.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <div class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Como nossa equipe pode ajudar sua empresa?
+                            </button>
+                        </div>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                            data-bs-parent="#faqVersion1">
+                            <div class="accordion-body">
+                                <p>Nossa equipe de especialistas qualificados trabalha para oferecer soluções personalizadas, garantindo que sua empresa de TI esteja sempre à frente no mercado.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <div class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Por que escolher nossa empresa de TI?
+                            </button>
+                        </div>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                            data-bs-parent="#faqVersion1">
+                            <div class="accordion-body">
+                                <p>Escolha nossa empresa de TI pela experiência, inovação e compromisso em oferecer soluções que impulsionam o crescimento e a eficiência do seu negócio.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    <!--==============================
+    Skill Area
+    ==============================-->
+    <section class="space-top space-extra-bottom">
+    <div class="container">
+        <div class="row flex-row-reverse">
+            <div class="col-lg-5 col-xxl-auto mb-30 pb-20 pb-lg-0 wow fadeInUp" data-wow-delay="0.2s">
+                <img src="assets/img/skill/skill-1-1.jpg" alt="Habilidades da Empresa de TI">
+            </div>
+            <div class="col-lg-7 col-xxl-6 me-xl-auto">
+                <span class="sec-subtitle"><i class="fas fa-bring-forward"></i>Habilidades da Empresa de TI</span>
+                <h2 class="sec-title h1">Conectando Pessoas e Construindo Tecnologia</h2>
+                <p class="mb-4 pb-1">Nossa empresa de TI utiliza as melhores práticas e tecnologias para oferecer soluções inovadoras que conectam pessoas e impulsionam negócios. Com uma equipe altamente qualificada, garantimos resultados excepcionais.</p>
+                <div class="progress-box">
+                    <h3 class="progress-box__title">Segurança Empresarial</h3>
+                    <span class="progress-box__number">95%</span>
+                    <div class="progress-box__progress">
+                        <div class="progress-box__bar" role="progressbar" style="width: 95%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                </div>
+                <div class="progress-box">
+                    <h3 class="progress-box__title">Desenvolvimento de Carreira</h3>
+                    <span class="progress-box__number">90%</span>
+                    <div class="progress-box__progress">
+                        <div class="progress-box__bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                </div>
+                <div class="progress-box">
+                    <h3 class="progress-box__title">Inovação Empresarial</h3>
+                    <span class="progress-box__number">85%</span>
+                    <div class="progress-box__progress">
+                        <div class="progress-box__bar" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    <!--==============================
+    CTA Area
+    ==============================-->
+    <section class="z-index-common space" data-bg-src="assets/img/bg/cta-bg-1-1.jpg">
+    <div class="container">
+        <div class="row text-center text-lg-start align-items-center justify-content-between">
+            <div class="col-lg-auto">
+                <span class="sec-subtitle text-white">Estamos aqui para ajudar sua empresa 24/7</span>
+                <h2 class="h1 sec-title cta-title1">Precisa de Consultoria em TI?</h2>
+            </div>
+            <div class="col-lg-auto">
+                <a href="/contato.html" class="vs-btn">Solicitar Consultoria<i class="far fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </div>
+</section>
+    <!--==============================
+    Work Process
+    ==============================-->
+    <section class="space-top space-extra-bottom" data-bg-src="assets/img/bg/process-bg-1-1.jpg" id="processv1">
+    <div class="container wow fadeInUp" data-wow-delay="0.2s">
+        <div class="row justify-content-center text-center">
+            <div class="col-xl-6">
+                <div class="title-area">
+                    <span class="sec-subtitle">Processo de Trabalho</span>
+                    <h2 class="sec-title h1">Como nossa Empresa de TI trabalha</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6 col-lg-3 process-style1">
+                <div class="process-arrow"><img src="assets/img/icon/process-arrow-1-1.png" alt="arrow"></div>
+                <div class="process-icon">
+                    <img src="assets/img/icon/process-1-1.png" alt="icon">
+                    <span class="process-number">01</span>
+                </div>
+                <h3 class="process-title h5">Análise de Necessidades</h3>
+                <p class="process-text">Identificamos os desafios e necessidades específicas da sua empresa.</p>
+            </div>
+            <div class="col-sm-6 col-lg-3 process-style1">
+                <div class="process-arrow"><img src="assets/img/icon/process-arrow-1-1.png" alt="arrow"></div>
+                <div class="process-icon">
+                    <img src="assets/img/icon/process-1-2.png" alt="icon">
+                    <span class="process-number">02</span>
+                </div>
+                <h3 class="process-title h5">Planejamento Estratégico</h3>
+                <p class="process-text">Criamos um plano personalizado para atender às suas demandas.</p>
+            </div>
+            <div class="col-sm-6 col-lg-3 process-style1">
+                <div class="process-arrow"><img src="assets/img/icon/process-arrow-1-1.png" alt="arrow"></div>
+                <div class="process-icon">
+                    <img src="assets/img/icon/process-1-3.png" alt="icon">
+                    <span class="process-number">03</span>
+                </div>
+                <h3 class="process-title h5">Implementação</h3>
+                <p class="process-text">Executamos as soluções com eficiência e tecnologia de ponta.</p>
+            </div>
+            <div class="col-sm-6 col-lg-3 process-style1">
+                <div class="process-arrow"><img src="assets/img/icon/process-arrow-1-1.png" alt="arrow"></div>
+                <div class="process-icon">
+                    <img src="assets/img/icon/process-1-4.png" alt="icon">
+                    <span class="process-number">04</span>
+                </div>
+                <h3 class="process-title h5">Suporte Contínuo</h3>
+                <p class="process-text">Oferecemos suporte e manutenção para garantir o sucesso contínuo.</p>
+            </div>
+        </div>
+    </div>
+</section>
+    <!--==============================
+    Testimonial Area
+    ==============================-->
+    <section class="space-top space-extra-bottom">
+    <div class="container wow fadeInUp" data-wow-delay="0.2s">
+        <div class="row justify-content-between">
+            <div class="col-lg-auto text-center text-lg-start">
+                <div class="title-area">
+                    <span class="sec-subtitle"><i class="fas fa-bring-forward"></i>Depoimentos</span>
+                    <h2 class="sec-title h1">O que nossos clientes dizem</h2>
+                </div>
+            </div>
+            <div class="col-auto d-none d-lg-block">
+                <div class="sec-btns">
+                    <button class="vs-btn style4" data-slick-prev="#testislide1"><i class="far fa-arrow-left"></i>Anterior</button>
+                    <button class="vs-btn style4" data-slick-next="#testislide1">Próximo<i class="far fa-arrow-right"></i></button>
+                </div>
+            </div>
+        </div>
+        <div class="row vs-carousel" data-slide-show="3" data-md-slide-show="2" id="testislide1">
+            <div class="col-xl-4">
+                <div class="testi-style1">
+                    <div class="testi-icon"><i class="fal fa-quote-right"></i></div>
+                    <p class="testi-text">“A Empresa de TI transformou nosso negócio com soluções inovadoras e suporte excepcional. Recomendo para quem busca tecnologia e atendimento de qualidade.”</p>
+                    <h3 class="testi-name h6">Carlos Silva</h3>
+                    <div class="testi-degi">Cliente de Infraestrutura</div>
+                </div>
+            </div>
+            <div class="col-xl-4">
+                <div class="testi-style1">
+                    <div class="testi-icon"><i class="fal fa-quote-right"></i></div>
+                    <p class="testi-text">“O serviço de análise de dados foi essencial para nossas decisões estratégicas. Atendimento rápido, equipe dedicada e resultados acima do esperado.”</p>
+                    <h3 class="testi-name h6">Ana Souza</h3>
+                    <div class="testi-degi">Cliente de Big Data</div>
+                </div>
+            </div>
+            <div class="col-xl-4">
+                <div class="testi-style1">
+                    <div class="testi-icon"><i class="fal fa-quote-right"></i></div>
+                    <p class="testi-text">“Recomendo a consultoria em TI para qualquer empresa que busca crescimento sustentável. Soluções sob medida e suporte sempre disponível.”</p>
+                    <h3 class="testi-name h6">João Pereira</h3>
+                    <div class="testi-degi">Cliente de Consultoria</div>
+                </div>
+            </div>
+            <!-- Depoimentos adicionais -->
+            <div class="col-xl-4">
+                <div class="testi-style1">
+                    <div class="testi-icon"><i class="fal fa-quote-right"></i></div>
+                    <p class="testi-text">“A equipe da Cloud4me foi ágil e eficiente na migração para a nuvem. Atendimento personalizado, segurança e inovação em cada etapa do projeto.”</p>
+                    <h3 class="testi-name h6">Fernanda Lima</h3>
+                    <div class="testi-degi">Cliente de Azure Cloud</div>
+                </div>
+            </div>
+            <div class="col-xl-4">
+                <div class="testi-style1">
+                    <div class="testi-icon"><i class="fal fa-quote-right"></i></div>
+                    <p class="testi-text">“O outsourcing de TI trouxe tranquilidade e foco para nosso negócio. Equipe dedicada, suporte 24/7 e resultados que superaram nossas expectativas.”</p>
+                    <h3 class="testi-name h6">Ricardo Martins</h3>
+                    <div class="testi-degi">Cliente de Outsourcing</div>
+                </div>
+            </div>
+            <div class="col-xl-4">
+                <div class="testi-style1">
+                    <div class="testi-icon"><i class="fal fa-quote-right"></i></div>
+                    <p class="testi-text">“Atendimento personalizado e soluções sob medida. A Cloud4me realmente entende as necessidades do cliente e entrega tecnologia de ponta.”</p>
+                    <h3 class="testi-name h6">Patrícia Alves</h3>
+                    <div class="testi-degi">Cliente de Soluções TI</div>
+                </div>
+            </div>
+            <!-- Fim depoimentos adicionais -->
+        </div>
+    </div>
+</section>
+    <!--==============================
+    Brand Section
+    ==============================-->
+    <section class="space-bottom">
+    <div class="container">
+        <div class="sec-line-wrap">
+            <div class="sec-line"></div>
+            <h2 class="sec-title2">Nossos Clientes Confiáveis</h2>
+            <div class="sec-line"></div>
+        </div>
+        <div class="row vs-carousel text-center" data-slide-show="5" data-md-slide-show="3" data-sm-slide-show="2" data-xs-slide-show="2">
+            <div class="col-auto"><img src="assets/img/brand/alelo.png" alt="Cliente 1"></div>
+            <div class="col-auto"><img src="assets/img/brand/ticket.png" alt="Cliente 2"></div>
+            <div class="col-auto"><img src="assets/img/brand/abbt.png" alt="Cliente 3"></div>
+            <div class="col-auto"><img src="assets/img/brand/toymania.png" alt="Cliente 4"></div>
+            <div class="col-auto"><img src="assets/img/brand/wrapped.png" alt="Cliente 5"></div>
+            
+        </div>
+    </div>
+</section>
+    <!--==============================
+    Blog Area
+    ==============================-->
+    <section class="vs-blog-wrapper space-top space-extra-bottom" data-bg-src="assets/img/bg/blog-bg-1-1.jpg">
+    <div class="container wow fadeInUp" data-wow-delay="0.2s">
+        <div class="row justify-content-center text-center">
+            <div class="col-xl-6">
+                <div class="title-area">
+                    <span class="sec-subtitle">Atualizações Semanais</span>
+                    <h2 class="sec-title h1">Últimas Notícias da Empresa de TI</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row vs-carousel" data-slide-show="3" data-md-slide-show="2">
+            <div class="col-xl-4">
+                <div class="vs-blog blog-style1">
+                    <div class="blog-img">
+                        <img src="assets/img/blog/blog-1-1.jpg" alt="Blog Image" class="w-100">
+                        <div class="blog-content">
+                            <div class="blog-meta">
+                                <a href="blog.html"><i class="far fa-calendar"></i>24 Fev, 2025</a>
+                                <a href="blog.html"><i class="fal fa-user"></i>por admin</a>
+                            </div>
+                            <h3 class="blog-title h5"><a href="blog-details.html">Como a tecnologia está transformando empresas de TI</a></h3>
+                            <a href="blog-details.html" class="link-btn">Leia Mais<i class="far fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4">
+                <div class="vs-blog blog-style1">
+                    <div class="blog-img">
+                        <img src="assets/img/blog/blog-1-2.jpg" alt="Blog Image" class="w-100">
+                        <div class="blog-content">
+                            <div class="blog-meta">
+                                <a href="blog.html"><i class="far fa-calendar"></i>30 Mar, 2025</a>
+                                <a href="blog.html"><i class="fal fa-user"></i>por admin</a>
+                            </div>
+                            <h3 class="blog-title h5"><a href="blog-details.html">Estratégias de TI para impulsionar negócios</a></h3>
+                            <a href="blog-details.html" class="link-btn">Leia Mais<i class="far fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4">
+                <div class="vs-blog blog-style1">
+                    <div class="blog-img">
+                        <img src="assets/img/blog/blog-1-3.jpg" alt="Blog Image" class="w-100">
+                        <div class="blog-content">
+                            <div class="blog-meta">
+                                <a href="blog.html"><i class="far fa-calendar"></i>31 Jul, 2025</a>
+                                <a href="blog.html"><i class="fal fa-user"></i>por admin</a>
+                            </div>
+                            <h3 class="blog-title h5"><a href="blog-details.html">Inovações em TI para o futuro</a></h3>
+                            <a href="blog-details.html" class="link-btn">Leia Mais<i class="far fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    <!--==============================
+			Footer Area
+	==============================-->
+    <footer class="footer-wrapper footer-layout1" data-bg-src="assets/img/shape/bg-footer-1-1.jpg">
+    <div class="footer-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm footer-info_group">
+                    <div class="footer-info">
+                        <div class="footer-info_icon"><i class="fal fa-map-marker-alt"></i></div>
+                        <div class="media-body">
+                            <span class="footer-info_label">Endereço do Escritório</span>
+                            <div class="footer-info_link">Rua: Tijuco preto - Tatuapé</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm footer-info_group">
+                    <div class="footer-info">
+                        <div class="footer-info_icon"><i class="fal fa-clock"></i></div>
+                        <div class="media-body">
+                            <span class="footer-info_label">Horário de Funcionamento</span>
+                            <div class="footer-info_link">Seg-Sex: 8h - 18h | Sáb-Dom: Fechado</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm footer-info_group">
+                    <div class="footer-info">
+                        <div class="footer-info_icon"><i class="fal fa-phone-volume"></i></div>
+                        <div class="media-body">
+                            <span class="footer-info_label">Contato</span>
+                            <div class="footer-info_link"><a href="mailto:info@cloud4me.com">info@cloud4me.com.br</a><br><a href="tel:+26921562148">(11) 9 6143-3062</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="widget-area">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-md-6 col-lg-4 col-xl-auto">
+                    <div class="widget footer-widget">
+                        <h3 class="widget_title">Sobre Nós</h3>
+                        <div class="vs-widget-about">
+                            <p class="footer-text">Nossa empresa de TI oferece soluções inovadoras para transformar negócios e impulsionar o crescimento.</p>
+                            <div class="footer-social">
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                <a href="#"><i class="fab fa-youtube"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-2 col-xl-auto">
+                    <div class="widget widget_nav_menu footer-widget">
+                        <h3 class="widget_title">Links</h3>
+                        <ul class="menu">
+                            <li><a href="about.html">Sobre Nós</a></li>
+                            <li><a href="service.html">Serviços</a></li>
+                            <li><a href="contact.html">Contato</a></li>
+                            <li><a href="blog.html">Blog</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-2 col-xl-auto">
+                    <div class="widget widget_nav_menu footer-widget">
+                        <h3 class="widget_title">Explore</h3>
+                        <ul class="menu">
+                            <li><a href="#">O que Oferecemos</a></li>
+                            <li><a href="#">Nossa História</a></li>
+                            <li><a href="#">Últimos Posts</a></li>
+                            <li><a href="#">Ajuda</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-auto">
+                    <div class="widget footer-widget">
+                        <h3 class="widget_title">Mapa do Escritório</h3>
+                        <div class="footer-map">
+                            <iframe title="Mapa do Escritório"
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.706264118029!2d-46.56945072571438!3d-23.543064960918276!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5eecd8ee6e1f%3A0x6084e76a8ebc958e!2sR.%20Tijuco%20Preto%20-%20Tatuap%C3%A9%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2003316-000!5e0!3m2!1spt-BR!2sbr!4v1749577157929!5m2!1spt-BR!2sbr"
+                                width="200" height="180" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copyright-wrap">
+        <div class="container">
+            <p class="copyright-text">Copyright <i class="fal fa-copyright"></i> 2025 <a class="text-white" href="index.html">Cloud4me</a>. Todos os direitos reservados.</p>
+        </div>
+    </div>
+</footer>
+
+
+    <!-- Scroll To Top -->
+    <a href="#" class="scrollToTop scroll-btn"><i class="far fa-arrow-up"></i></a>
+
+
+
+    <!--********************************
+			Code End  Here 
+	******************************** -->
+
+
+    <!--==============================
+        All Js File
+    ============================== -->
+    <!-- Jquery -->
+    <script src="assets/js/vendor/jquery-3.6.0.min.js"></script>
+    <!-- Slick Slider -->
+    <!-- <script src="assets/js/app.min.js"></script> -->
+    <script src="assets/js/slick.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- WOW.js Animation -->
+    <script src="assets/js/wow.min.js"></script>
+    <!-- Magnific Popup -->
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <!-- Isotope Filter -->
+    <script src="assets/js/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/js/isotope.pkgd.min.js"></script>
+    <!-- Main Js File -->
+    <script src="assets/js/main.js"></script>
+
+ <!-- Botão flutuante do WhatsApp -->
+    <style>
+      .whatsapp-button {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        z-index: 1000;
+        animation: pulse 0s infinite;
+      }
+
+      @keyframes pulse {
+        0% {
+          transform: scale(1);
+        }
+        50% {
+          transform: scale(1.1);
+        }
+        100% {
+          transform: scale(1);
+        }
+      }
+
+      .whatsapp-button img {
+        width: auto;
+        height: auto;
+        cursor: pointer;
+      }
+
+      @media (max-width: 768px) {
+        .whatsapp-button {
+          bottom: 10px;
+          right: 10px;
+        }
+
+        .whatsapp-button img {
+          width: auto;
+          height: auto;
+        }
+      }
+
+      .ul-banner-sub-title {
+    font-size: clamp(12px, 0.8vw, 14px);
+}
+    </style>
+
+    <a href="https://wa.me/5511988605459" class="whatsapp-button">
+  <img src="assets/botao/botao-whatsapp.png" alt="Botão WhatsApp">
+</a>
+</body>
+
+</html>
